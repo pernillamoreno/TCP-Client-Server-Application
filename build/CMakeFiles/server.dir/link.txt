@@ -1,1 +1,0 @@
-/usr/bin/c++ CMakeFiles/server.dir/desktop/server/main.cpp.o -o server  -Wl,-rpath,/home/pernilla/boost_1_85_0/stage/lib /home/pernilla/boost_1_85_0/stage/lib/libboost_system.so /home/pernilla/boost_1_85_0/stage/lib/libboost_filesystem.so libnetworking_lib.a /home/pernilla/boost_1_85_0/stage/lib/libboost_system.so /home/pernilla/boost_1_85_0/stage/lib/libboost_filesystem.so 
