@@ -1,0 +1,5 @@
+/home/pernilla/Documents/PlatformIO/Projects/assignments/project/EXERCISE/simple chat/MUD/build/CMakeFiles/networking_lib.dir
+/home/pernilla/Documents/PlatformIO/Projects/assignments/project/EXERCISE/simple chat/MUD/build/CMakeFiles/client.dir
+/home/pernilla/Documents/PlatformIO/Projects/assignments/project/EXERCISE/simple chat/MUD/build/CMakeFiles/server.dir
+/home/pernilla/Documents/PlatformIO/Projects/assignments/project/EXERCISE/simple chat/MUD/build/CMakeFiles/edit_cache.dir
+/home/pernilla/Documents/PlatformIO/Projects/assignments/project/EXERCISE/simple chat/MUD/build/CMakeFiles/rebuild_cache.dir
