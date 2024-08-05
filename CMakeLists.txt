@@ -2,7 +2,7 @@ cmake_minimum_required(VERSION 3.22)
 
 project(YourProject LANGUAGES CXX)
 
-set(CMAKE_CXX_STANDARD 14)
+set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_EXTENSIONS OFF)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 add_compile_options(-Wall -Wextra -Wpedantic -Werror)
@@ -27,7 +27,7 @@ include_directories(${NETWORKING_DIR}/include)
 # Define sources
 set(CLIENT_SOURCES ${CLIENT_DIR}/main.cpp)
 set(SERVER_SOURCES ${SERVER_DIR}/main.cpp)
-set(NETWORKING_SOURCES ${NETWORKING_DIR}/src/tcp_server.cpp ${NETWORKING_DIR}/src/tcp_connection.cpp)
+set(NETWORKING_SOURCES  ${NETWORKING_DIR}/src/client/tcp_client.cpp ${NETWORKING_DIR}/src/server/tcp_server.cpp ${NETWORKING_DIR}/src/server/tcp_connection.cpp)
 
 # Create a library from networking sources
 add_library(networking_lib STATIC ${NETWORKING_SOURCES})
